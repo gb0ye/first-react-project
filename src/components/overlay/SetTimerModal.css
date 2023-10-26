@@ -1,0 +1,88 @@
+.new-timer {
+   width: 300px;
+   border: 1.5px solid #0066ff;
+   border-radius: 20px;
+   padding: 30px;
+   background-color: rgba(0, 0, 0, 0.03);
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+   overflow: hidden;
+   /* display: none; */
+}
+
+.new-timer p {
+   /* color: lightblue; */
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.set-time-container {
+   /* display: none; */
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 15px;
+   width: 100%;
+   border: 2px solid #0066ff;
+   border-radius: 5px;
+}
+
+.set-time-container input {
+   border: none;
+   width: 33%;
+   padding: 10px 0;
+   font-size: 1rem;
+   font-weight: bold;
+   outline: none;
+   text-align: center;
+}
+
+.set-name-container {
+   border: 2px solid #0066ff;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   width: 100%;
+   outline: none;
+
+   /* overflow: hidden; */
+}
+
+.set-name-container input {
+   padding: 5px 0 5px 10px;
+   width: 100%;
+   height: 100%;
+   outline: none;
+   border: none;
+}
+
+.set-timer-btns {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.set-timer-btns button {
+   width: 50%;
+   padding: 7px 0 7px 0;
+   border: none;
+   color: #fff;
+   outline: none;
+   cursor: pointer;
+}
+
+.set-timer-btns button:active {
+   scale: 0.98;
+}
+
+.set-timer-btns .save-timer {
+   background-color: #0066ff;
+   border: 1px solid #0066ff;
+   border-radius: 5px;
+}
+
+.set-timer-btns .cancel-timer {
+   background-color: #ffffff;
+   color: #000;
+   border-radius: 5px;
+   border: 1px solid black;
+}

@@ -1,0 +1,22 @@
+.menubar-container {
+    height: 50px;
+    width: 100%;
+    background-color: rebeccapurple;
+    position:fixed;
+    z-index: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubar {
+    width: 250px;
+    align-items: center;
+}
+
+
+.close-menubar-btn {
+    position:  absolute;
+    right: 10px;
+    bottom: 10px;
+}
